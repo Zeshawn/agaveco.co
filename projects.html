@@ -1,1 +1,177 @@
-<h1> Projects</h1>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,400i,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/puh1hly.css">
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="vendors/css/normalize.css" type="text/css" rel="stylesheet">
+    <link href="vendors/css/grid.css" type="text/css" rel="stylesheet">
+    <link href="vendors/css/grid.css" type="text/css" rel="stylesheet">
+    <link href="resources/css/style.css" rel="stylesheet">
+    <link href="resources/css/nav.css" rel="stylesheet">
+    <link href="resources/css/footer.css" rel="stylesheet">
+    <link href="resources/css/queries.css" rel="stylesheet">
+
+
+    <!--Inter UI font-->
+<link href="https://rsms.me/inter/inter-ui.css" rel="stylesheet">
+
+<!--vendors styles-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Bootstrap CSS / Color Scheme -->
+<link rel="stylesheet" href="resources/css/default.css" id="theme-color">
+
+    <!-------------- FAVICONS -------------->
+    <link rel="icon" type="image/x-icon" href="resources/img/favicon.ico" />
+
+    <!-------------- METADATA -------------->
+    <title>Agave Co. | App & Web Development</title>
+    <meta name="description" content="Agave Co. is a web and app development start-up based in NYC."/>
+</head>
+
+<body>
+
+    <!-------------- NAV BAR -------------->
+
+    <nav id="main-nav" class="js--main-nav">
+        <a href="index.html" class="main-nav__logo"> <img src="resources/img/logo.png" height="35px" width="175px"/></a>
+        <a href="#mission" class="main-nav__link">mission</a>
+        <a href="projects.html" class="main-nav__link">projects</a>
+
+          <a href="login.html" class="main-nav__link">client login</a>
+        <a href="https://calendly.com/agaveco/15min?back=1&month=2019-04" target="_blank" class="cta">schedule a chat</a>
+        <a href="#" class="mobile-nav-icon"><i class="fas fa-bars"></i></a>
+    </nav>
+
+    <!-------------- MOBILE NAV OVERLAY -------------->
+
+    <!-- The overlay -->
+    <div id="mobileNav" class="overlay">
+
+      <!-- Button to close the overlay navigation -->
+      <a href="#" class="mobile-close-icon"><i class="fas fa-times"></i></a>
+
+      <!-- Overlay content -->
+      <div class="overlay-links">
+        <a href="#mission" onclick="closeNav()">mission</a>
+                <a href="projects.html" class="main-nav__link" onclick="closeNav()">projects</a>
+
+              <button class="main-nav__link_signup" onclick="closeNav()">client login</button>
+        <a href="https://calendly.com/agaveco/15min?back=1&month=2019-04" target="_blank" onclick="closeNav()">schedule a chat</a>
+      </div>
+
+    </div>
+
+    <!--------------  WORK-------------->
+
+    <!-- work section -->
+            <section class="py-6" id="work">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 mx-auto">
+                            <h2 class="dot-circle">Things we've created.</h2>
+                            <div class="row mt-6 projects">
+                                <div class="col-sm-6 mb-4">
+                                    <div class="card">
+                                        <a href="#">
+                                            <img src="resources/img/work-1.jpg" alt="Work 1" class="card-img-top rounded"/>
+                                        </a>
+                                        <div class="card-body px-0">
+                                            <h5>iOS app design</h5>
+                                            <a href="#" class="text-muted d-flex flex-row align-items-center">
+                                                Case study
+                                                <em class="ml-1" data-feather="arrow-right" with="16" height="16"></em>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 mb-4">
+                                    <div class="card">
+                                        <a href="#">
+                                            <img src="resources/img/work-2.jpg" alt="Work 2" class="card-img-top rounded"/>
+                                        </a>
+                                        <div class="card-body px-0">
+                                            <h5>HTC price comparator</h5>
+                                            <a href="#" class="text-muted d-flex flex-row align-items-center">
+                                                Side projects
+                                                <em class="ml-1" data-feather="arrow-right" with="16" height="16"></em>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 mb-4">
+                                    <div class="card">
+                                        <a href="#">
+                                            <img src="resources/img/work-3.jpg" alt="Work 3" class="card-img-top rounded"/>
+                                        </a>
+                                        <div class="card-body px-0">
+                                            <h5>T-shirt design</h5>
+                                            <a href="#" class="text-muted d-flex flex-row align-items-center">
+                                                Case study
+                                                <em class="ml-1" data-feather="arrow-right" with="16" height="16"></em>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 mb-4">
+                                    <div class="card">
+                                        <a href="#">
+                                            <img src="resources/img/work-4.jpg" alt="Work 4" class="card-img-top rounded"/>
+                                        </a>
+                                        <div class="card-body px-0">
+                                            <h5>Weekly top tracks</h5>
+                                            <a href="#" class="text-muted d-flex flex-row align-items-center">
+                                                Side projects
+                                                <em class="ml-1" data-feather="arrow-right" with="16" height="16"></em>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-md-6 mx-auto text-center">
+                            <h5 class="mb-4">Need a custom design?</h5>
+                            <a href="#" class="button">Hire us now</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+    <!-------------- LOGOS -------------->
+
+
+    <!-------------- FOOTER -------------->
+
+
+        <div class="footer-box">
+            <a href="#header" class="footer-box__logo">&copy; 2019 Agave Co.</a>
+            <div class="footer-box__incubators">
+                <div class="logo">Have a wonderful day. ✨</div>
+                <div class="logo"></div>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/dianeelizabeth/" class="social-link" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:dkorongy@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+                  <a href="https://github.com/diaaanek/agaveco" class="social-link"><i class="fab fa-github"></i></a>
+                  <a href="http://dianedesigned.com" class="social-link"><i class="fas fa-link"></i></a>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-------------- SCRIPTS -------------->
+<script src="resources/js/script.js"></script>
+</body>
+
+
+
+</html>
