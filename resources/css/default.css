@@ -7207,7 +7207,7 @@ p a, .border-link {
   transition: all .25s ease-out; }
 
 .dot-circle:before {
-  background: rgba(85, 255, 199, 0.1);
+  background: #a7c4ac30;
   transition: all .25s ease-out;
   border-radius: 0px;
   -webkit-transform: rotate(0);
