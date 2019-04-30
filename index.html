@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,400i,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/puh1hly.css">
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="vendors/css/normalize.css" type="text/css" rel="stylesheet">
+    <link href="vendors/css/grid.css" type="text/css" rel="stylesheet">
+    <link href="vendors/css/grid.css" type="text/css" rel="stylesheet">
+    <link href="resources/css/style.css" rel="stylesheet">
+    <link href="resources/css/nav.css" rel="stylesheet">
+    <link href="resources/css/footer.css" rel="stylesheet">
+    <link href="resources/css/queries.css" rel="stylesheet">
+
+    <!-------------- FAVICONS -------------->
+    <link rel="icon" type="image/x-icon" href="resources/img/favicon.ico" />
+
+    <!-------------- METADATA -------------->
+    <title>Agave Co. | App & Web Development</title>
+    <meta name="description" content="Agave Co. is a web and app development start-up based in NYC."/>
+</head>
+
+<body>
+
+    <!-------------- NAV BAR -------------->
+
+    <nav id="main-nav" class="js--main-nav">
+        <a href="#header" class="main-nav__logo"> <img src="resources/img/logo.png" height="35px" width="175px"/></a>
+        <a href="#mission" class="main-nav__link">mission</a>
+        <a href="#get-involved" class="main-nav__link">services</a>
+          <a href="#mission" class="main-nav__link">client login</a>
+        <a href="https://calendly.com/agaveco/15min?back=1&month=2019-04" target="_blank" class="cta">schedule a chat</a>
+        <a href="#" class="mobile-nav-icon"><i class="fas fa-bars"></i></a>
+    </nav>
+
+    <!-------------- MOBILE NAV OVERLAY -------------->
+
+    <!-- The overlay -->
+    <div id="mobileNav" class="overlay">
+
+      <!-- Button to close the overlay navigation -->
+      <a href="#" class="mobile-close-icon"><i class="fas fa-times"></i></a>
+
+      <!-- Overlay content -->
+      <div class="overlay-links">
+        <a href="#mission" onclick="closeNav()">mission</a>
+        <a href="#get-involved" onclick="closeNav()">how to get involved</a>
+              <button class="main-nav__link_signup" onclick="closeNav()">client login</button>
+        <a href="https://calendly.com/agaveco/15min?back=1&month=2019-04" target="_blank" onclick="closeNav()">schedule a chat</a>
+      </div>
+
+    </div>
+
+    <!-------------- HEADER -------------->
+
+    <header id="header">
+        <div class="header__copy">
+           <h1>Revolutionizing the meaning of a Sweeter Web</h1>
+           <p>Agave Co. is here to make it sweeter. We are a full stack web and app design and development company based in NYC.</p>
+           <br>
+           Got a Project or Partnership in Mind?
+           <p>
+             <br>
+           <button class="button button-secondary">Get a quote</button>
+        </div>
+        <div class="header__img">
+            <img src="resources/img/header-img.svg" alt="computer">
+        </div>
+
+    </header>
+
+
+    <!-------------- MISSION -------------->
+
+    <section id="mission">
+        <div class="mission__img">
+            <img src="resources/img/about.svg">
+        </div>
+        <div class="mission__copy">
+            <div class="mission__copy--hed">
+              <p class="p__superscript">Our Mission</p>
+              <h3>We believe in blah. Whether you need a quick mockup or full-scale implementation, we work with you to make sh*t happen.</h3>
+            </div>
+            <div class="mission__copy--description">
+              <p class="p__description">Our goal is to make beautiful interfaces and functional products do just that.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-------------- HOW TO HELP -------------->
+
+    <section id="get-involved">
+        <div class="help__hed">
+            <p class="p__superscript">Services</p>
+            <h3> We provide quality services, guarenteed.</h3>
+        </div>
+        <div class="help__steps">
+            <div class="help__step">
+                <a href="https://calendly.com/lisasiva/research-call?back=1" target="_blank"><img class="help__step--img" src="resources/img/step-one-schedule-time.png"></a>
+                <div class="help__step--copy">
+                    <p class="help__step--hed">Web development</p>
+                    <p class="help__step--description">We specialize in HTML/CSS, Javascript, React, Ruby, Express, Rails, just to name a few.</p>
+                </div>
+            </div>
+            <div class="help__step">
+                <img class="help__step--img" src="resources/img/mobile.svg">
+                <div class="help__step--copy">
+                    <p class="help__step--hed">Mobile App Design </p>
+                    <p class="help__step--description">Have an idea that needs prototyping for MVP? We specialize in clean, minimal iOS design and Swift development meant to meet your business needs.</p>
+                </div>
+            </div>
+            <div class="help__step">
+                <img class="help__step--img" src="resources/img/step-three-thank-you-note.png">
+                <div class="help__step--copy">
+                    <p class="help__step--hed">Architechture</p>
+                    <p class="help__step--description"> yup.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------- WHY IT MATTERS -------------->
+
+    <section id="what">
+        <div class="what__copy">
+            <div class="what__copy--hed">
+                <p class="p__superscript">WHAT WE DO WITH YOUR FEEDBACK</p>
+                <h3>Your feedback helps us better understand what to make.</h3>
+            </div>
+            <div class="what__copy--description">
+                <p class="p__description">We're thinking it might look something like a project management tool or a blah. What works for you will help shape it. The stuff that doesn't helps us know what to leave out.</p>
+            </div>
+        </div>
+        <div class="what__img">
+            <img src="resources/img/flow.svg">
+        </div>
+    </section>
+
+    <!-------------- LOGOS -------------->
+
+
+    <!-------------- FOOTER -------------->
+
+
+        <div class="footer-box">
+            <a href="#header" class="footer-box__logo">&copy; 2019 Agave Co.</a>
+            <div class="footer-box__incubators">
+                <div class="logo"></div>
+                <div class="logo"></div>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/dianeelizabeth/" class="social-link" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:dkorongy@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+                  <a href="https://github.com/diaaanek/agaveco" class="social-link"><i class="fas fa-code"></i></a>
+                  <a href="http://dianedesigned.com" class="social-link"><i class="fas fa-link"></i></a>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-------------- SCRIPTS -------------->
+<script src="resources/js/script.js"></script>
+</body>
+
+
+
+</html>
