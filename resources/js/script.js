@@ -10,7 +10,7 @@ let closeIcon = document.querySelector('.mobile-close-icon');
 let mobileNav = document.getElementById('mobileNav');
 
 ///////////////////////////////////////
-// STICKY NAV BAR 
+// STICKY NAV BAR
 ///////////////////////////////////////
 
 window.onscroll = function() {
@@ -42,3 +42,6 @@ function openNav() {
 function closeNav() {
   mobileNav.style.height = "0%";
 }
+
+
+///////// NAV ///////////
