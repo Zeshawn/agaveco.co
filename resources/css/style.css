@@ -210,7 +210,7 @@ BUTTON - REFACTOR TO SCSS
 .button {
     background-color: #a7c4ac;
 	background: color(bg, 1);
-    color: color(primary, 1) !important;
+  color: white;
     border: none;
     border-radius: 2px;
     cursor: pointer;
