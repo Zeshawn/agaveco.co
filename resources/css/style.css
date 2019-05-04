@@ -116,7 +116,7 @@ MISSION
 }
 
 #mission img {
-    width: 100%;
+    width: 125%;
     transform: scaleX(-1);
     flex: 0 0 50%;
 }
