@@ -14,7 +14,7 @@ MAIN NAV STYLES
     font-weight: 400;
     font-size: 150%;
     text-decoration: none;
-    color: #fa8c61;
+    color: #a7c4ac;
     transition: color 0.5s;
     margin-top: -12px;
     margin-bottom:8px;
@@ -43,11 +43,11 @@ MAIN NAV STYLES
 .main-nav__link:visited { color: #555 }
 
 .main-nav__link:hover,
-.main-nav__link:active { border-bottom: 2px solid #fa8c61 }
+.main-nav__link:active { border-bottom: 2px solid #a7c4ac; }
 
 .cta:link,
 .cta:visited {
-    color: #fa8c61;
+    color: #a7c4ac;
     transition: color 0.3s, border-bottom 0.3s;
 }
 
@@ -120,7 +120,7 @@ MOBILE NAV
 
 .overlay a:hover,
 .overlay a:active {
-  color: #fa8c61;
+  color: #a7c4ac;
 }
 
 .overlay .mobile-close-icon {

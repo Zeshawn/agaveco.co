@@ -38,10 +38,12 @@ h3 {
 
 .p__superscript {
     text-transform: uppercase;
-    color: #fa8c61;
+    color: #a7c4ac;
+    /* color: #fa8c61; */
     font-size: 60%;
     margin-bottom: 10px;
     font-weight: 400;
+    font-family: Avenir;
 }
 
 .p__description {
@@ -54,6 +56,10 @@ h3 {
 a {
   text-decoration: none;
   color: white;
+
+  a:hover{
+    color: #a7c4ac;
+  }
 }
 
 /**************************************
