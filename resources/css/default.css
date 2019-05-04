@@ -26,7 +26,7 @@ html {
   --orange: #ffd700;
   --yellow: #ffff00;
   --green: #00e676;
-  --teal: #55ffc7;
+  --teal: #a7c4ac;
   --cyan: #00e5ff;
   --white: #ffffff;
   --gray: #868e96;
@@ -2865,7 +2865,7 @@ tbody.collapse.show {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #ffffff;
-  background-color: #55ffc7; }
+  background-color: #a7c4ac; }
 
 .nav-fill .nav-item {
   -ms-flex: 1 1 auto;
@@ -7019,7 +7019,7 @@ button.bg-dark:focus {
   color: #fff !important; }
 
 .text-primary {
-  color: #55ffc7 !important; }
+  color: #a7c4ac !important; }
 
 a.text-primary:hover, a.text-primary:focus {
   color: #22ffb6 !important; }
@@ -7137,7 +7137,7 @@ Custom CSS
   font-size: 90%; }
 
 p a, .border-link {
-  box-shadow: inset 0 -3px 0 0 #55ffc7;
+  box-shadow: inset 0 -3px 0 0 #a7c4ac;
   transition: all .25s ease-out; }
   p a:hover, .border-link:hover {
     box-shadow: none;
@@ -7333,7 +7333,7 @@ footer a {
   footer a:hover {
     color: rgba(0, 0, 0, 0.9);
     text-decoration: none;
-    box-shadow: inset 0 -3px 0 0 #55ffc7; }
+    box-shadow: inset 0 -3px 0 0 #a7c4ac; }
 
 /*social icons*/
 .social a {
