@@ -116,7 +116,7 @@ MISSION
 }
 
 #mission img {
-    width: 125%;
+    width: 110%;
     transform: scaleX(-1);
     flex: 0 0 50%;
 }
@@ -308,3 +308,23 @@ BUTTON - REFACTOR TO SCSS
     .text-yellow {
         color: #a7c4ac;
     }
+
+
+
+    /* Back to top button */
+#backToTop {
+  display: none;
+  position: fixed;
+  bottom: .5rem;
+  right: 1rem;
+  z-index: 90;
+  border: none;
+  outline: none;
+  /* background-color: #ffd05a; */
+  border-radius: 4px;
+  padding: 1rem;
+  cursor: pointer;
+}
+.back-to-top__image {
+  width: 1.5rem;
+}
