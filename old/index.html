@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/puh1hly.css">
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139539418-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-139539418-1');
+    </script>
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="vendors/css/normalize.css" type="text/css" rel="stylesheet">
+    <link href="vendors/css/grid.css" type="text/css" rel="stylesheet">
+    <link href="vendors/css/grid.css" type="text/css" rel="stylesheet">
+    <link href="resources/css/style.css" rel="stylesheet">
+    <link href="resources/css/nav.css" rel="stylesheet">
+    <link href="resources/css/footer.css" rel="stylesheet">
+    <link href="resources/css/queries.css" rel="stylesheet">
+
+
+
+    <!-------------- FAVICONS -------------->
+    <link rel="icon" type="image/x-icon" href="resources/img/favicon.ico" />
+
+    <!-------------- METADATA -------------->
+    <title>Agave Co. | App & Web Development</title>
+    <meta name="description" content="Agave Co. is a web and app development start-up based in NYC."/>
+
+    <!--  Essential META Tags -->
+
+    <meta property="og:title" content="Agave Co. | App & Web Development">
+    <meta property="og:description" content="Agave Co. is a web and app development start-up based in NYC.">
+    <meta property="og:image" content="resources/img/header-img.png">
+    <meta property="og:url" content="https://agaveco.co">
+
+
+
+
+
+</head>
+
+<body>
+
+    <!-------------- NAV BAR -------------->
+
+    <nav id="main-nav" class="js--main-nav">
+        <a href="#header" class="main-nav__logo"> <img src="resources/img/logo.png" height="35px" width="175px"/></a>
+        <a href="#mission" class="main-nav__link">about</a>
+      
+
+          <a href="projects.html" class="main-nav__link">client login</a>
+        <a href="https://calendly.com/agaveco/15min?back=1&month=2019-04" target="_blank" class="cta">schedule a chat</a>
+        <a href="#" class="mobile-nav-icon"><i class="fas fa-bars"></i></a>
+    </nav>
+
+    <!-------------- MOBILE NAV OVERLAY -------------->
+
+    <!-- The overlay -->
+    <div id="mobileNav" class="overlay">
+
+      <!-- Button to close the overlay navigation -->
+      <a href="#" class="mobile-close-icon"><i class="fas fa-times"></i></a>
+
+      <!-- Overlay content -->
+      <div class="overlay-links">
+        <a href="#mission" onclick="closeNav()">about</a>
+                <a href="projects.html" class="main-nav__link" onclick="closeNav()">projects</a>
+
+
+        <a href="https://calendly.com/agaveco/15min?back=1&month=2019-04" target="_blank" onclick="closeNav()">schedule a chat</a>
+      </div>
+
+    </div>
+
+    <!-------------- HEADER -------------->
+
+    <header id="header">
+        <div class="header__copy">
+           <h1>Dev work doesn't have to spike your blood sugar levels</h1>
+           <p>Agave Co. is revolutionizing what it means to have a sweet idea, product, website, and app. We are a full stack web and app design and development company based in NYC focused on creative and results-driven solutions.</p>
+           <br>
+
+           <p>
+             <br>
+
+
+           <button class="button button-secondary" onclick="window.location.href  ='https://dianekorongy.typeform.com/to/CWRrVK' ;"> Get a quote</button>
+        </div>
+        <div class="header__img">
+            <img src="resources/img/header.png" alt="computer">
+        </div>
+
+    </header>
+
+
+    <!-------------- MISSION -------------->
+
+    <section id="mission">
+        <div class="mission__img">
+            <img src="resources/img/pic3.png">
+        </div>
+        <div class="mission__copy">
+            <div class="mission__copy--hed">
+              <p class="p__superscript">Our Mission</p>
+              <h3>We work with you to make sh*t happen.</h3>
+            </div>
+            <div class="mission__copy--description">
+              <p class="p__description">We are focused on creative and results-driven solutions. We collaborate with entrepreneurs, businesses, and non-profits to create novel, custom software products. SaaS and other customer-facing products can create new revenue streams and allow you to service more customers. </p>
+            </div>
+        </div>
+    </section>
+
+    <!-------------- HOW TO HELP -------------->
+
+    <section id="get-involved">
+        <div class="help__hed">
+            <p class="p__superscript">Our Services</p>
+              <h3> We build web and mobile apps to power your business.</h3>
+              <h4> Coded With Love. Committed to Your Long-Term Success. </h4>
+            <!-- <div class="inner-content">
+              <div id="code">
+                <div class="terminalTop">
+                  <div class="red circle"></div>
+                  <div class="yellow circle"></div>
+                  <div class="green circle"></div>
+                </div>
+                <div id="console">
+                  &gt; <span class="text-yellow">Our Services</span>
+
+                  <br>
+                            <span class="answer">&nbsp;&nbsp;=&gt; "<span class="text-blue">We provide quality services, guaanteed.</span>"
+
+                </div>
+              </div>
+            </div> -->
+
+        </div>
+
+        <div class="help__steps">
+            <div class="help__step">
+                <a href=" " target="_blank"><img class="help__step--img" src="resources/img/header-img.png"></a>
+                <div class="help__step--copy">
+                    <p class="help__step--hed">Web development</p>
+                    <p class="help__step--description">We build and maintain web apps to power businesses using Rails, React, & JavaScript, just to name a few. We are dedicated to delivering robust, engaging websites and applications that work across all devices.</p>
+                </div>
+            </div>
+            <div class="help__step">
+                <img class="help__step--img" src="resources/img/mobile.svg">
+                <div class="help__step--copy">
+                    <p class="help__step--hed">Mobile App Design </p>
+                    <p class="help__step--description">Have an idea that needs prototyping for MVP? We specialize in clean, minimal iOS design and Swift development meant to meet your business needs.</p>
+                </div>
+            </div>
+            <div class="help__step">
+
+
+                <img class="help__step--img" src="resources/img/flow.svg">
+                <div class="help__step--copy">
+                    <p class="help__step--hed">SEO MARKETING</p>
+                    <p class="help__step--description"> We work with businesses increase the quantity and quality of traffic to their websites through organic search engine results. Our websites feature mobile friendly, minimalist design without any distracting bells and whistles – and they are SEO oriented and 100% mobile compatible.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-------------- WHY IT MATTERS -------------->
+
+    <section id="what">
+        <div class="what__copy">
+            <div class="what__copy--hed">
+                <p class="p__superscript">OUR COMMITTMENT</p>
+                <h3>Not your average techies</h3>
+            </div>
+
+            <div class="what__copy--description">
+                <p class="p__description">
+                We are committed to the long-term success of our clients and their software. We plan, design, & develop websites and app from start to finish using the most advanced technologies and best practices.  </p>
+            </div>
+        </div>
+        <div class="what__img">
+          <img src="resources/img/headernew.png">
+        </div>
+    </section>
+
+    <!-------------- LOGOS -------------->
+
+
+
+
+
+    <!-------------- FOOTER -------------->
+
+
+        <div class="footer-box">
+            <a href="#header" class="footer-box__logo">&copy; Agave Co.</a>
+            <!-- <div class="footer-box__incubators">
+                <div class="logo">Have a wonderful day. ✨</div>
+                <div class="logo"></div>
+            </div> -->
+            <div class="social-links">
+                <a href="https://www.linkedin.com/company/agave-co/" class="social-link" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:agaveco.co@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+                  <a href="https://github.com/agaveco" class="social-link"><i class="fab fa-github"></i></a>
+                  <a href="https://agaveco.co" class="social-link"><i class="fas fa-link"></i></a>
+            </div>
+        </div>
+
+    </footer>
+
+
+  <button id="backToTop"><img class="back-to-top__image" src="resources/img/top.svg" alt=""></button>
+
+    <!-------------- SCRIPTS -------------->
+<script src="resources/js/script.js"></script>
+
+
+</body>
+
+
+
+</html>

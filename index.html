@@ -1,11 +1,31 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.typekit.net/puh1hly.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Agave Co.</title>
+    <meta name="description" content="Agave Co. Web Development & Design" />
+
+     <!-------------- FAVICONS -------------->
+     <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+       <!--  Essential META Tags -->
+
+       <meta property="og:title" content="Agave Co. | App & Web Development">
+       <meta property="og:description" content="Agave Co. is a web and app development start-up based in NYC.">
+       <meta property="og:image" content="img/header-img.png">
+       <meta property="og:url" content="https://agaveco.co">
+    <!--Google font IBM Plex Sans-->
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,700" rel="stylesheet">
+
+    <!--vendors styles-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS / Color Scheme -->
+    <link rel="stylesheet" href="css/default.css" id="theme-color">
+
+    <link href="https://fonts.googleapis.com/css?family=Product+Sans:300,400,700" rel="stylesheet" />
 
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -17,217 +37,518 @@
 
       gtag('config', 'UA-139539418-1');
     </script>
-
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <link href="vendors/css/normalize.css" type="text/css" rel="stylesheet">
-    <link href="vendors/css/grid.css" type="text/css" rel="stylesheet">
-    <link href="vendors/css/grid.css" type="text/css" rel="stylesheet">
-    <link href="resources/css/style.css" rel="stylesheet">
-    <link href="resources/css/nav.css" rel="stylesheet">
-    <link href="resources/css/footer.css" rel="stylesheet">
-    <link href="resources/css/queries.css" rel="stylesheet">
-
-
-
-    <!-------------- FAVICONS -------------->
-    <link rel="icon" type="image/x-icon" href="resources/img/favicon.ico" />
-
-    <!-------------- METADATA -------------->
-    <!-- <title>Agave Co. | App & Web Development</title>
-    <meta name="description" content="Agave Co. is a web and app development start-up based in NYC."/> -->
-
-    <!--  Essential META Tags -->
-
-    <meta property="og:title" content="Agave Co. | App & Web Development">
-    <meta property="og:description" content="Agave Co. is a web and app development start-up based in NYC.">
-    <meta property="og:image" content="resources/img/header-img.png">
-    <meta property="og:url" content="https://agaveco.co">
-
-
-
-
-
 </head>
+
 
 <body>
 
-    <!-------------- NAV BAR -------------->
-
-    <nav id="main-nav" class="js--main-nav">
-        <a href="#header" class="main-nav__logo"> <img src="resources/img/logo.png" height="35px" width="175px"/></a>
-        <a href="#mission" class="main-nav__link">about</a>
-        <a href="projects.html" class="main-nav__link">projects</a>
-
-          <a href="projects.html" class="main-nav__link">client login</a>
-        <a href="https://calendly.com/agaveco/15min?back=1&month=2019-04" target="_blank" class="cta">schedule a chat</a>
-        <a href="#" class="mobile-nav-icon"><i class="fas fa-bars"></i></a>
-    </nav>
-
-    <!-------------- MOBILE NAV OVERLAY -------------->
-
-    <!-- The overlay -->
-    <div id="mobileNav" class="overlay">
-
-      <!-- Button to close the overlay navigation -->
-      <a href="#" class="mobile-close-icon"><i class="fas fa-times"></i></a>
-
-      <!-- Overlay content -->
-      <div class="overlay-links">
-        <a href="#mission" onclick="closeNav()">about</a>
-                <a href="projects.html" class="main-nav__link" onclick="closeNav()">projects</a>
-
-
-        <a href="https://calendly.com/agaveco/15min?back=1&month=2019-04" target="_blank" onclick="closeNav()">schedule a chat</a>
-      </div>
-
-    </div>
-
-    <!-------------- HEADER -------------->
-
-    <header id="header">
-        <div class="header__copy">
-           <h1>Dev work doesn't have to spike your blood sugar levels</h1>
-           <p>Agave Co. is revolutionizing what it means to have a sweet idea, product, website, and app. We are a full stack web and app design and development company based in NYC focused on creative and results-driven solutions.</p>
-           <br>
-
-           <p>
-             <br>
-
-
-           <button class="button button-secondary" onclick="window.location.href  ='https://dianekorongy.typeform.com/to/CWRrVK' ;"> Get a quote</button>
+    <!--navigation-->
+    <section class="smart-scroll">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-md navbar-light">
+                <a class="navbar-brand heading-black" href="index.html">
+                Agave Co.
+            </a>
+                <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span data-feather="menu"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="#features">services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="#reviews">reviews</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link page-scroll" href="#pricing">Pricing</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="#faq">faq</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline">
+                        <a class="btn btn-primary page-scroll" href="https://calendly.com/agaveco/15min?back=1&month=2019-04">schedule a chat</a>
+                    </form>
+                </div>
+            </nav>
         </div>
-        <div class="header__img">
-            <img src="resources/img/header.png" alt="computer">
-        </div>
+    </section>
 
-    </header>
-
-
-    <!-------------- MISSION -------------->
-
-    <section id="mission">
-        <div class="mission__img">
-            <img src="resources/img/pic3.png">
-        </div>
-        <div class="mission__copy">
-            <div class="mission__copy--hed">
-              <p class="p__superscript">Our Mission</p>
-              <h3>We work with you to make sh*t happen.</h3>
-            </div>
-            <div class="mission__copy--description">
-              <p class="p__description">We are focused on creative and results-driven solutions. We collaborate with entrepreneurs, businesses, and non-profits to create novel, custom software products. SaaS and other customer-facing products can create new revenue streams and allow you to service more customers. </p>
+    <!--hero header-->
+    <section class="pt-5" id="home">
+        <div class="container-fluid">
+            <div class="row vh-md-100">
+                <div class="col-md-4 ml-auto my-auto text-center text-md-left order-2 order-md-1">
+                    <h1 class="text-capitalize">Your work made simple & sweet.</h1>
+                    <p class="lead text-muted mb-5">Agave Co. is revolutionizing what it means to have a sweet idea, product, website, and app. We are a full stack web and app design and development company based in NYC focused on creative and results-driven solutions.</p>
+                    <a href="#features" class="btn btn-primary d-inline-flex flex-row align-items-center page-scroll">
+                    Get Started
+                    <em data-feather="arrow-right" width="20" height="20" class="ml-2"></em>
+                </a>
+                </div>
+                <div class="col-md-7 my-auto pt-5 pt-md-0 order-1 order-md-2">
+                    <img src="https://res.cloudinary.com/dxrvvjvpf/image/upload/v1561497219/KANDID_PROTOIMG.png" class="img-fluid d-block mx-auto" alt="Mockup" />
+                </div>
             </div>
         </div>
     </section>
 
-    <!-------------- HOW TO HELP -------------->
+    <section class="bg-light">
+        <svg class="align-bottom" enable-background="new 0 0 1440 68" viewBox="0 0 1440 68" xmlns="http://www.w3.org/2000/svg">
+        <path d="m1622.3 1937.7c0 0-410.7 169.1-913.4 75.5-502.7-93.6-977.7 56.3-977.7 56.3v440h1891.1v-571.8"
+              fill="#FFF" transform="translate(0-1977)"></path>
+    </svg>
+    </section>
 
-    <section id="get-involved">
-        <div class="help__hed">
-            <p class="p__superscript">Our Services</p>
-              <h3> We build web and mobile apps to power your business.</h3>
-              <h4> Coded With Love. Committed to Your Long-Term Success. </h4>
-            <!-- <div class="inner-content">
-              <div id="code">
-                <div class="terminalTop">
-                  <div class="red circle"></div>
-                  <div class="yellow circle"></div>
-                  <div class="green circle"></div>
+    <!-- features section -->
+    <section class="py-7 bg-white" id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mx-auto text-center">
+                    <h2 class="text-capitalize">We work with you to make sh*t happen.</h2>
+                    <p class="text-muted lead">We are focused on creative and results-driven solutions. We collaborate with entrepreneurs, businesses, and non-profits to create novel, custom software products.</p>
                 </div>
-                <div id="console">
-                  &gt; <span class="text-yellow">Our Services</span>
-
-                  <br>
-                            <span class="answer">&nbsp;&nbsp;=&gt; "<span class="text-blue">We provide quality services, guaanteed.</span>"
-
+            </div>
+            <div class="row mt-5 feature-boxes">
+                <div class="col-md-4 box">
+                    <div class="icon-box">
+                        <div class="icon-box-inner small text-primary">
+                            <span data-feather="users" width="30" height="30"></span>
+                        </div>
+                    </div>
+                    <h5>Web Development</h5>
+                    <p class="text-muted">We build and maintain web apps to power businesses using Rails, React, & JavaScript, just to name a few.</p>
                 </div>
-              </div>
+                <div class="col-md-4 box">
+                    <div class="icon-box">
+                        <div class="icon-box-inner small text-primary">
+                            <span data-feather="refresh-ccw" width="30" height="30"></span>
+                        </div>
+                    </div>
+                    <h5>UX/UI Product Design</h5>
+                    <p class="text-muted">Have an idea that needs prototyping for MVP? We specialize in clean, minimal mobile and web design meant to meet your business needs.</p>
+                </div>
+                <div class="col-md-4 box">
+                    <div class="icon-box">
+                        <div class="icon-box-inner small text-primary">
+                            <span data-feather="layout" width="30" height="30"></span>
+                        </div>
+                    </div>
+                    <h5>SEO Marketing</h5>
+                    <p class="text-muted">We work with businesses increase the quantity and quality of traffic to their websites through organic search engine results.</p>
+                </div>
+                <div class="col-md-4 box">
+                    <div class="icon-box">
+                        <div class="icon-box-inner small text-primary">
+                            <span data-feather="bell" width="30" height="30"></span>
+                        </div>
+                    </div>
+                    <h5>Work Integrations</h5>
+                    <p class="text-muted">We can help automate your workflow, making you focus on what you do right.</p>
+                </div>
+                <div class="col-md-4 box">
+                    <div class="icon-box">
+                        <div class="icon-box-inner small text-primary">
+                            <span data-feather="message-circle" width="30" height="30"></span>
+                        </div>
+                    </div>
+                    <h5>Branding</h5>
+                    <p class="text-muted">Our deditcated team consults top notch logos and assets for your business needs.</p>
+                </div>
+                <div class="col-md-4 box">
+                    <div class="icon-box">
+                        <div class="icon-box-inner small text-primary">
+                            <span data-feather="search" width="30" height="30"></span>
+                        </div>
+                    </div>
+                    <h5>Mobile Development</h5>
+                    <p class="text-muted">Not only can we design it, we can build it to. Turn your app idea into a reality with our expert React Native and Swift developers.</p>
+                </div>
+            </div>
+            <div class="row mt-6">
+                <div class="col-md-9 mx-auto">
+                    <div class="alert alert-primary text-center py-5">
+                        <div class="row">
+                            <div class="col-md-8 col-10 mx-auto">
+                                <h4>Coded With Love. Committed to Each and Every Client's Long-Term Success.</h4>
+                                <p>We build web and mobile apps to power your business. We plan, design, & develop websites and app from start to finish using the most advanced technologies and best practices.</p>
+                                <!-- <p class="mt-4 mb-0">
+                                    <a href="#"><img class="img-fluid" src="img/mac-app-store.svg" alt="Download" /></a>
+                                </p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white">
+        <svg class="align-bottom" enable-background="new 0 0 1440 68" viewBox="0 0 1440 68" xmlns="http://www.w3.org/2000/svg">
+        <path d="m1622.3 1937.7c0 0-410.7 169.1-913.4 75.5-502.7-93.6-977.7 56.3-977.7 56.3v440h1891.1v-571.8"
+              fill="#f8f9fa" transform="translate(0-1977)"></path>
+    </svg>
+    </section>
+
+    <!--reviews section-->
+    <section class="pt-7" id="reviews">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mx-auto text-center">
+                    <h2 class="text-capitalize">What others say about us</h2>
+                    <p class="text-muted lead">We value and are excited about our work with small businesses and creative entrepreneurs!</p>
+                </div>
+            </div>
+            <div class="row mt-6 review-wrapper">
+                <div class="col-md-6">
+                    <div class="card review">
+                        <div class="card-body">
+                            <p class="quote">The developers at Agave were very professional and prompt with their execution and delivery. We were able to successfully launch our mobile repsonsive site thanks to their help! </p>
+                            <div class="mt-4 text-muted">
+                                <img src="img/client-1.jpg" class="img-review rounded-circle mr-2" alt="Client 1" />
+                                <strong>Emma Jones</strong>, Rosewood Realty
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card review">
+                        <div class="card-body">
+                            <p class="quote">Agave was new but they handled all website updates on time, following requirements closely. The team worked quickly and communicated well throughout the project.</p>
+                            <div class="mt-4 text-muted">
+                                <img src="img/client-2.jpg" class="img-review rounded-circle mr-2" alt="Client 2" />
+                                <strong>Adam Amrod</strong>, GeoCv
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-md-6">
+                <div class="card review">
+                    <div class="card-body">
+                        <p class="quote">Praesent vulputate dolor velit, pellentesin condimentum odio pellentesque
+                            libero. Nam liber tempor cum congue nihil imper per tem por legere me doming.</p>
+                        <div class="mt-4 text-muted">
+                            <img src="img/client-3.jpg" class="img-review rounded-circle mr-2" alt="Client 3"/>
+                            <strong>Katrine Deo</strong>, Twitter
+                        </div>
+                    </div>
+                </div>
             </div> -->
-
-        </div>
-
-        <div class="help__steps">
-            <div class="help__step">
-                <a href="https://calendly.com/lisasiva/research-call?back=1" target="_blank"><img class="help__step--img" src="resources/img/header-img.png"></a>
-                <div class="help__step--copy">
-                    <p class="help__step--hed">Web development</p>
-                    <p class="help__step--description">We build and maintain web apps to power businesses using Rails, React, & JavaScript, just to name a few. We are dedicated to delivering robust, engaging websites and applications that work across all devices.</p>
+                <!-- <div class="col-md-6">
+                <div class="card review mt-md-6">
+                    <div class="card-body">
+                        <p class="quote">Praesent vulputate dolor velit, pellentesin condimentum odio pellentesque
+                            libero.</p>
+                        <div class="mt-4 text-muted">
+                            <img src="img/client-4.jpg" class="img-review rounded-circle mr-2" alt="Client 4"/>
+                            <strong>Eran Raval</strong>, Google
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="help__step">
-                <img class="help__step--img" src="resources/img/mobile.svg">
-                <div class="help__step--copy">
-                    <p class="help__step--hed">Mobile App Design </p>
-                    <p class="help__step--description">Have an idea that needs prototyping for MVP? We specialize in clean, minimal iOS design and Swift development meant to meet your business needs.</p>
-                </div>
-            </div>
-            <div class="help__step">
-
-
-                <img class="help__step--img" src="resources/img/flow.svg">
-                <div class="help__step--copy">
-                    <p class="help__step--hed">SEO MARKETING</p>
-                    <p class="help__step--description"> We work with businesses increase the quantity and quality of traffic to their websites through organic search engine results. Our websites feature mobile friendly, minimalist design without any distracting bells and whistles – and they are SEO oriented and 100% mobile compatible.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-------------- WHY IT MATTERS -------------->
-
-    <section id="what">
-        <div class="what__copy">
-            <div class="what__copy--hed">
-                <p class="p__superscript">OUR COMMITTMENT</p>
-                <h3>Not your average techies</h3>
-            </div>
-
-            <div class="what__copy--description">
-                <p class="p__description">
-                We are committed to the long-term success of our clients and their software. We plan, design, & develop websites and app from start to finish using the most advanced technologies and best practices.  </p>
-            </div>
-        </div>
-        <div class="what__img">
-          <img src="resources/img/headernew.png">
-        </div>
-    </section>
-
-    <!-------------- LOGOS -------------->
-
-
-
-
-
-    <!-------------- FOOTER -------------->
-
-
-        <div class="footer-box">
-            <a href="#header" class="footer-box__logo">&copy; Agave Co.</a>
-            <!-- <div class="footer-box__incubators">
-                <div class="logo">Have a wonderful day. ✨</div>
-                <div class="logo"></div>
             </div> -->
-            <div class="social-links">
-                <a href="https://www.linkedin.com/company/agave-co/" class="social-link" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                <a href="mailto:agaveco.co@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
-                  <a href="https://github.com/agaveco" class="social-link"><i class="fab fa-github"></i></a>
-                  <a href="https://agaveco.co" class="social-link"><i class="fas fa-link"></i></a>
             </div>
         </div>
+    </section>
 
+    <hr class="mt-7" />
+
+    <!--pricing section-->
+    <section class="py-7" id="pricing">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mx-auto text-center">
+                    <h2 class="text-capitalize">Simple, fair pricing</h2>
+                    <p class="text-muted lead">Our team is a group of new seasoned developers, talented and fresh on the market!
+                    </p>
+                </div>
+            </div>
+            <!-- pricing tables
+            <div class="row mt-5 pricing-table">
+                <div class="col-sm-12">
+                    <div class="card-group pricing-table">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <div class="icon-box bg-light">
+                                    <div class="icon-box-inner small-xs text-primary">
+                                        <span data-feather="user" width="30" height="30"></span>
+                                    </div>
+                                </div>
+                                <h4 class="card-title pt-3">Freelancer</h4>
+                                <ul class="list-unstyled pricing-list">
+                                    <li>1 project</li>
+                                    <li>Unlimited revisions</li>
+                                    <li>1 user</li>
+                                    <li>Unlimited guests</li>
+                                    <li>500MB storage</li>
+                                </ul>
+                                <div class="card-title text-primary price pb-4"><sup>$</sup> <span>29</span> /month</div>
+                                <a href="#" class="btn btn-primary">
+                                Sign up
+                            </a>
+                            </div>
+                        </div>
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <div class="icon-box">
+                                    <div class="icon-box-inner small-xs text-primary">
+                                        <span data-feather="users" width="30" height="30"></span>
+                                    </div>
+                                </div>
+                                <h4 class="card-title pt-3">Team</h4>
+                                <ul class="list-unstyled pricing-list">
+                                    <li>15 projects</li>
+                                    <li>Unlimited revisions</li>
+                                    <li>15 users</li>
+                                    <li>Unlimited guests</li>
+                                    <li>1.5GB storage</li>
+                                </ul>
+                                <div class="card-title text-primary price pb-4"><sup>$</sup> <span>49</span> /month</div>
+                                <a href="#" class="btn btn-primary">
+                                Sign up
+                            </a>
+                            </div>
+                        </div>
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <div class="icon-box bg-light">
+                                    <div class="icon-box-inner small-xs text-primary">
+                                        <span data-feather="star" width="30" height="30"></span>
+                                    </div>
+                                </div>
+                                <h4 class="card-title pt-3">Business</h4>
+                                <ul class="list-unstyled pricing-list">
+                                    <li>Unlimited projects</li>
+                                    <li>Unlimited revisions</li>
+                                    <li>Unlimited users</li>
+                                    <li>Unlimited guests</li>
+                                    <li>5GB storage</li>
+                                </ul>
+                                <div class="card-title text-primary price pb-4"><sup>$</sup> <span>99</span> /month</div>
+                                <a href="#" class="btn btn-primary">
+                                Sign up
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-6">
+                <div class="col-sm-4">
+                    <div class="media">
+                        <div class="icon-box">
+                            <div class="icon-box-inner small-xs text-primary">
+                                <span data-feather="refresh-cw" width="30" height="30"></span>
+                            </div>
+                        </div>
+                        <div class="media-body">
+                            <h6 class="mt-0 mb-2">30-day trail</h6>
+                            <span class="text-muted">Nam liber tempor cum soluta nobis eleifend option congue nihil imper.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="media">
+                        <div class="icon-box">
+                            <div class="icon-box-inner small-xs text-primary">
+                                <span data-feather="credit-card" width="30" height="30"></span>
+                            </div>
+                        </div>
+                        <div class="media-body">
+                            <h6 class="mt-0 mb-2">No credit card required</h6>
+                            <span class="text-muted">Nam liber tempor cum soluta nobis eleifend option congue nihil imper.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="media">
+                        <div class="icon-box">
+                            <div class="icon-box-inner small-xs text-primary">
+                                <span data-feather="award" width="30" height="30"></span>
+                            </div>
+                        </div>
+                        <div class="media-body">
+                            <h6 class="mt-0 mb-2">All features included</h6>
+                            <span class="text-muted">Nam liber tempor cum soluta nobis eleifend option congue nihil imper.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </section>
+
+    <section class="bg-light">
+        <svg class="align-bottom" enable-background="new 0 0 1440 68" viewBox="0 0 1440 68" xmlns="http://www.w3.org/2000/svg">
+        <path d="m1622.3 1937.7c0 0-410.7 169.1-913.4 75.5-502.7-93.6-977.7 56.3-977.7 56.3v440h1891.1v-571.8"
+              fill="#FFF" transform="translate(0-1977)"></path>
+    </svg>
+    </section>
+
+    <!--FAQ / CTA section-->
+    <section class="py-7 bg-white" id="faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mx-auto text-center">
+                    <h2 class="text-capitalize">Frequestly Asked Questions</h2>
+                    <p class="text-muted lead">
+                    </p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-10 mx-auto">
+                    <div class="row">
+                        <div class="col-md-6 mb-5">
+                            <h6>Can I try Agave for free?</h6>
+                            <p class="text-muted">Nam liber tempor cum soluta nobis eleifend option congue nihil imper per tem por legere me doming.</p>
+                        </div>
+                        <div class="col-md-6 mb-5">
+                            <h6>Do you have maintence fees?</h6>
+                            <p class="text-muted">Each project is unique in scope and we do offer monthly and yearly maintence.</p>
+                        </div>
+                        <div class="col-md-6 mb-5">
+                            <h6>What are the payment methods you accept?</h6>
+                            <p class="text-muted">As of now, we accept cash, credit, paypal, venmo.</p>
+                        </div>
+                        <div class="col-md-6 mb-5">
+                            <h6>My project is in Swift or XYZ, do you do other languages?</h6>
+                            <p class="text-muted">We do have developers fluent and confident to take on the project. Let's talk!</p>
+                        </div>
+                        <div class="col-md-6 mb-5">
+                            <h6>What is your refund policy?</h6>
+                            <p class="text-muted">We do not offer refunds on inital deposit. If you are unhappy with our services, we are more than happy to offer refunds.</p>
+                        </div>
+                        <div class="col-md-6 mb-5">
+                            <h6>How can I contact you?</h6>
+                            <p class="text-muted">Best way is through our contact form, email, or scheduling through our calendly!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-10 mx-auto">
+                    <div class="alert alert-primary d-md-flex flex-row align-items-center text-center text-md-left p-5">
+                        <div class="mb-4 mb-md-0">
+                            <h4>Try Agave</h4>
+                            <span>Schedule a consultation for 25% off your first project.</span>
+                        </div>
+                        <a href="https://calendly.com/agaveco/15min?back=1&month=2019-04" class="btn btn-primary ml-md-auto d-inline-flex flex-row align-items-center page-scroll">
+                        Get Started
+                        <em data-feather="arrow-right" width="20" height="20" class="ml-2"></em>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--signup section-->
+    <section class="bg-hero py-7" id="signup" style="background-image: url(https://res.cloudinary.com/dxrvvjvpf/image/upload/v1561494785/New_Project_1.png)">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 my-md-auto text-center text-md-left pb-5 pb-md-0">
+                    <h2 class="text-white">Speak to us</h2>
+                    <p class="lead text-light">Got an Startup Idea? Need it validated? Let us give you our honest opinion.</p>
+                </div>
+                <div class="col-md-5 ml-auto">
+                    <div class="card">
+                        <div class="card-body p-4">
+                            <h5 class="text-center">Enter fields below</h5>
+                            <form class="signup-form">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Full name">
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Email address">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" placeholder="Project type & Scope">
+                                </div>
+                                <div class="form-group">
+                                    <button class="btn btn-primary btn-block">Create proposal</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer class="py-6 bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 mr-auto">
+                    <h6>About Agave Co.</h6>
+                    <p>We are a full stack web and app design and development company based in NYC focused on creative and results-driven solutions.</p>
+                    <ul class="list-inline social social-rounded social-sm">
+                        <li class="list-inline-item">
+                            <a href="mailto:agaveco.co@gmail.com"><i class="fa fa-envelope"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://github.com/agaveco"><i class="fa fa-github"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/company/agave-co/"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href=""><i class="fa fa-dribbble"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-2">
+                    <h6>Partner</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Refer a developer</a></li>
+                        <li><a href="#">Refer a designer</a></li>
+                        <li><a href="#">Affiliates</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h6>Services</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">SEO Marketing</a></li>
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">Product Development</a></li>
+                        <li><a href="#">UX/UI Design</a></li>
+                        <li><a href="#">Full Stack Web Development</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-2">
+                    <h6>Legal</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Refund policy</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-6 mx-auto text-muted text-center small-xl">
+                    &copy; 2019 Agave Co. All Rights Reserved.
+                </div>
+            </div>
+        </div>
     </footer>
 
+    <!--scroll to top-->
+    <div class="scroll-top">
+        <i class="fa fa-angle-up" aria-hidden="true"></i>
+    </div>
 
-  <button id="backToTop"><img class="back-to-top__image" src="resources/img/top.svg" alt=""></button>
-
-    <!-------------- SCRIPTS -------------->
-<script src="resources/js/script.js"></script>
 
 
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.7.0/feather.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
-
-
 
 </html>
